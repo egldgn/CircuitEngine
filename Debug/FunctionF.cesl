@@ -1,0 +1,27 @@
+ BREADBOARD 10 4 5 // specification of dimensions of the breadboard.
+
+ CHIP Function_F 3 1 // chip will be 3(inputs)+1(output)+2(V&G) = 6 legs.
+	
+	VOLTAGE 6		// the Voltage is leg number 6
+	GROUND 3		// the Ground is leg number 3
+
+	INPUT 1			// 'INPUT 0' is connected to leg number 1.
+	INPUT 2			// 'INPUT 1' is connected to leg number 2.
+	INPUT 4			// 'INPUT 2' is connected to leg number 4.
+
+	GATE NOT 1		// this is the 'NOT 3'
+		INPUT 1		// getting input from 'INPUT 1'
+	END GATE		// closing the block of 'GATE NOT 1'
+
+	GATE AND 2		// this is the 'AND 4' which has 2 inputs.
+		NOT 3		// getting first input from 'NOT 3'.
+		INPUT 2		// getting second input from 'INPUT 2'.
+	END GATE		// closing the block of 'GATE AND 2'.
+
+	GATE OR 2 output 5	// this is the 'OR 5' which has 2 inputs.
+		INPUT 0		// getting first input from 'INPUT 0'.
+		AND 4		// getting second input from 'AND 4'.
+	END GATE		// closing the block of 'GATE OR 2 output 5'
+				// also, output of this gate is connected to leg number 5.
+
+END CHIP			// closing the block of 'CHIP Function_F 3 1'.

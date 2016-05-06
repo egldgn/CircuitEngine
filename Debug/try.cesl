@@ -1,0 +1,74 @@
+BREADBOARD 20 5 5
+
+CHIP FullAdder 3 2//Chip will be (3 inputs) + (2 outputs) + 2 (V&G) + 1(makes even) = 8 legs.
+ 
+ 	// Voltage is the leg number 1
+ GROUND 5 		// Ground is the leg number 5
+
+ INPUT 2 	// input 0 is the leg number 2
+ INPUT 3 	// input 1 is the leg number 3
+ INPUT 4 	// input 2 is the leg number 4
+
+
+ GATE XOR 2 //XOR 3
+  INPUT 0
+  INPUT 1
+ END GATE
+
+ GATE AND 2 //AND 4
+  INPUT 0
+  INPUT 1
+ END GATE
+
+ GATE XOR 2 output 6 //XOR 5	// a 2-input XOR gate which is taking inputs from 
+  XOR 3			// first (0) declared XOR gate.
+  INPUT 2			// and third (2) declared INPUT gate.
+ END GATE			// its output is also connected to leg number 6
+
+ GATE AND 2 //AND 6
+  XOR 3
+  INPUT 2
+ END GATE
+
+ GATE OR 2 output 7 //OR7
+  AND 4
+  AND 6
+ END GATE
+ VOLTAGE 1
+END CHIP
+
+CHIP 74LS08 8 4
+
+	VOLTAGE 14
+	GROUND 7
+
+	INPUT 1 //0
+	INPUT 2 //1
+
+	INPUT 4 //2
+	INPUT 5 //3
+
+	INPUT 9 //4
+	INPUT 10 //5
+
+	INPUT 12 //6
+	INPUT 13 //7
+
+	GATE AND 2 output 3 //14
+		INPUT 0
+		INPUT 1
+	END GATE
+	GATE AND 2 output 6 //15
+		INPUT 2
+		INPUT 3
+	END GATE
+	GATE AND 2 output 8 //16
+		INPUT 4
+		INPUT 5
+	END GATE
+	GATE AND 2 output 11 //17
+		INPUT 6
+		INPUT 7
+	END GATE
+
+END CHIP

@@ -1,0 +1,65 @@
+
+(i)(CEngine): Creating source level (V&G)....
+(i)(CircuitElement CE_NONAME.0): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.0): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.0): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.0): Renaming...
+(i)(CircuitElement Source(V&G).0): New name is OK.
+(i)(Gate):(Type[Voltage],NofInputs[0],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[Ground],NofInputs[0],OutAsLeg[0])::SetProps.() : properties OK.
+(c)(CEngine): CE Empty:Source(V&G) is added into circuit.
+(c)(CEngine): compilation started (C:\Users\emreguldogan\Downloads\CircuitEngine_Code_Files_VS6.0_VS8.0\Debug\FunctionF.cesl)....
+Initializing BreadBoard Node Table(r10,c4)...
+BreadBoard Node Table is ready.
+Initializing BreadBoard Node Map Table(h5)...
+BreadBoard Node Map Table is ready.
+(i)(CircuitElement CE_NONAME.1): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.1): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.1): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.1): Renaming...
+(i)(CircuitElement Function_F.1): New name is OK.
+(c)(CEngine): CE CHIP:Function_F is now setting up by in-script information ....
+(i)(CircuitElement Function_F.1): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[6])::SetProps.() : properties OK.
+(i)(CircuitElement Function_F.1): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[3])::SetProps.() : properties OK.
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[1])::SetProps.() : properties OK.
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[2])::SetProps.() : properties OK.
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[4])::SetProps.() : properties OK.
+(i)(Gate):(Type[NOT],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[AND],NofInputs[2],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[OR],NofInputs[2],OutAsLeg[5])::SetProps.() : properties OK.
+(c)(CEngine): Gate List is OK for Function_F.1..
+(c)(CEngine): Gate connection process is starting for Function_F.1....
+(c)(CEngine): Gate connection process is completed..
+(c)(CEngine): CE CHIP:Function_F is added into circuit.
+(i)(CEngine): compilation completed....
+
+LISTING CURRENT CIRCUIT ELEMENTS:
+
+BREADBOARD : 10 rows, 4 cols and 5 holes in a node.
+
+Gate List CE Source(V&G).id_0 [gtType(Addr).no >> nof_inputs (input addr. list)]
+V = leg_0 (00000000), G = leg_0 (00000000)
+Voltage(00533240)(leg_0).1 >> 0 ()
+Ground(00533268)(leg_0).2 >> 0 ()
+
+Gate List CE Function_F.id_1 [gtType(Addr).no >> nof_inputs (input addr. list)]
+V = leg_6 (00000000), G = leg_3 (00000000)
+Input(00533290)(leg_1).1 >> 1 ( 00000000 )
+Input(00533930)(leg_2).2 >> 1 ( 00000000 )
+Input(00533958)(leg_4).3 >> 1 ( 00000000 )
+NOT(0053C268)(leg_0).4 >> 1 ( 00533930 )
+AND(0053C290)(leg_0).5 >> 2 ( 0053C268  00533958 )
+OR(0053C2B8)(leg_5).6 >> 2 ( 00533290  0053C290 )
+
+END OF CIRCUIT LIST
+
+
+Deallocating BreadBoard Node Table...
+Deallocating BreadBoard Node Map Table...
+Deallocation of BreadBoard is completed.

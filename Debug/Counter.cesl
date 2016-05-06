@@ -1,0 +1,123 @@
+BREADBOARD 20 6 6
+
+CHIP Counter 1 5	// chip will be 1(inputs) + 5(output) + 2(V&G) = 8 legs. 
+
+	INPUT 1				// (0.) // input from leg 1 (Clock)
+	
+	VOLTAGE 2
+	GROUND 3
+
+	// /////////////////////////////////////////// D - FLIP FLOP 1
+	GATE NOT 1			// (1.)		0
+		NAND 5
+	END GATE
+	GATE NAND 2			// (2.)		1
+		NAND 5 //D
+		INPUT 0 //clock
+	END GATE
+	GATE NAND 2			// (3.)		2
+		INPUT 0 //clock
+		NOT 1
+	END GATE
+	GATE NAND 2 output 8		// (4.) Q	3
+		NAND 2
+		NAND 5
+	END GATE
+	GATE NAND 2			// (5.) Q'	4
+		NAND 4
+		NAND 3
+	END GATE
+	// /////////////////////////////////////////// D - FLIP FLOP 2
+	GATE NOT 1			// (6.)		0
+		XOR 24
+	END GATE
+	GATE NAND 2			// (7.)		1
+		XOR 24 //D
+		INPUT 0 //clock
+	END GATE
+	GATE NAND 2			// (8.)		2
+		INPUT 0 //clock
+		NOT 6
+	END GATE
+	GATE NAND 2 output 7		// (9.) Q	3
+		NAND 7
+		NAND 10
+	END GATE
+	GATE NAND 2			// (10.) Q'	4
+		NAND 9
+		NAND 8
+	END GATE
+	// /////////////////////////////////////////// D - FLIP FLOP 3
+	GATE NOT 1			// (11.)		0
+		XOR 25
+	END GATE
+	GATE NAND 2			// (12.)		1
+		XOR 25 //D
+		INPUT 0 //clock
+	END GATE
+	GATE NAND 2			// (13.)		2
+		INPUT 0 //clock
+		NOT 11
+	END GATE
+	GATE NAND 2 output 6		// (14.) Q		3
+		NAND 12
+		NAND 15
+	END GATE
+	GATE NAND 2			// (15.) Q'		4
+		NAND 14
+		NAND 13
+	END GATE
+	// /////////////////////////////////////////// D - FLIP FLOP 4
+	GATE NOT 1			// (16.)		0
+		XOR 26
+	END GATE
+	GATE NAND 2			// (17.)		1
+		XOR 26 //D
+		INPUT 0 //clock
+	END GATE
+	GATE NAND 2			// (18.)		2
+		INPUT 0 //clock
+		NOT 16
+	END GATE
+	GATE NAND 2 output 5		// (19.) Q		3
+		NAND 17
+		NAND 20
+	END GATE
+	GATE NAND 2			// (20.) Q'		4
+		NAND 19
+		NAND 18
+	END GATE
+	// /////////////////////////////////////////// F Out AND
+	GATE AND 4 output 4		// (21.)
+		NAND 4
+		NAND 9
+		NAND 14
+		NAND 19
+	END GATE
+
+	GATE AND 2			// (22.) AND 1.
+		NAND 4
+		NAND 9
+	END GATE
+
+	GATE AND 3			// (23.) AND 2.
+		NAND 4
+		NAND 9
+		NAND 14
+	END GATE
+
+	GATE XOR 2			// (24.) XOR 1.
+		NAND 4
+		NAND 9		
+	END GATE
+
+	GATE XOR 2			// (25.) XOR 2.
+		AND 22
+		NAND 14
+	END GATE
+
+	GATE XOR 2			// (26.) XOR 3.
+		AND 23
+		NAND 19
+	END GATE
+END CHIP

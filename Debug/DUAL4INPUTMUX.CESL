@@ -1,0 +1,101 @@
+BREADBOARD 30 4 6
+ 
+
+CHIP Dual4InputMux 12 2 // Chip will be (12 inputs) + (2 outputs) + 2 (V&G) = 16 legs.
+ 
+ VOLTAGE 16	// Voltage is the leg number 1
+ GROUND 8 	// Ground is the leg number 5
+
+ INPUT 1	// input 0 is the leg number 1 ('Ea)
+ INPUT 2	// input 1 is the leg number 2 (S1)
+ INPUT 3	// input 2 is the leg number 3 (I3a)
+ INPUT 4	// input 3 is the leg number 4 (I2a)
+ INPUT 5	// input 4 is the leg number 5 (I1a)
+ INPUT 6	// input 5 is the leg number 6 (I0a)
+ INPUT 10	// input 6 is the leg number 10 (I0b)
+ INPUT 11	// input 7 is the leg number 11 (I1b)
+ INPUT 12	// input 8 is the leg number 12 (I2b)
+ INPUT 13	// input 9 is the leg number 13 (I3b)
+ INPUT 14 	// input 10 is the leg number 14 (S0)
+ INPUT 15 	// input 11 is the leg number 15 ('Eb)
+
+ GATE NOT 1 //NOT_0
+  INPUT 0
+ END GATE
+ GATE NOT 1 //NOT_1
+  INPUT 1
+ END GATE
+ GATE NOT 1 //NOT_2
+  INPUT 10
+ END GATE 
+ GATE NOT 1 //NOT_3
+  INPUT 11
+ END GATE
+ GATE NOT 1 //NOT_4
+  NOT 1
+ END GATE
+ GATE NOT 1 //NOT_5
+  NOT 2
+ END GATE
+ GATE AND 4 //AND_0
+  NOT 0
+  NOT 1
+  NOT 2
+  INPUT 5
+ END GATE
+ GATE AND 4 //AND_1
+  NOT 0
+  NOT 1
+  NOT 5
+  INPUT 4
+ END GATE
+ GATE AND 4 //AND_2
+  NOT 0
+  NOT 4
+  NOT 2
+  INPUT 3
+ END GATE
+ GATE AND 4 //AND_3
+  NOT 0
+  NOT 4
+  NOT 5
+  INPUT 2
+ END GATE
+ GATE AND 4 //AND_4
+  INPUT 6
+  NOT 1
+  NOT 2
+  NOT 3
+ END GATE
+ GATE AND 4 //AND_5
+  INPUT 7
+  NOT 1
+  NOT 5
+  NOT 3
+ END GATE
+ GATE AND 4 //AND_6
+  INPUT 8
+  NOT 4
+  NOT 2
+  NOT 3
+ END GATE
+ GATE AND 4 //AND_7 
+  INPUT 9
+  NOT 4
+  NOT 5
+  NOT 3
+ END GATE
+ GATE OR 4 output 7 //OR_0
+  AND 0
+  AND 1
+  AND 2
+  AND 3
+ END GATE
+ GATE OR 4 output 9 //OR_1
+  AND 4
+  AND 5
+  AND 6
+  AND 7
+ END GATE
+END CHIP
+

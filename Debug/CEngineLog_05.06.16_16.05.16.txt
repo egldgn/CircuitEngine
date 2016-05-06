@@ -1,0 +1,377 @@
+
+(i)(CEngine): Creating source level (V&G)....
+(i)(CircuitElement CE_NONAME.0): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.0): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.0): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.0): Renaming...
+(i)(CircuitElement Source(V&G).0): New name is OK.
+(i)(Gate):(Type[Voltage],NofInputs[0],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[Ground],NofInputs[0],OutAsLeg[0])::SetProps.() : properties OK.
+(c)(CEngine): CE Empty:Source(V&G) is added into circuit.
+(c)(CEngine): File is reading now (C:\Users\emreguldogan\Downloads\CircuitEngine_Code_Files_VS6.0_VS8.0\Debug\FULLAD~1.cec)....
+(c)(CEngine): File ID is OK, the Circuit is Loading....
+(c)(CEngine): Setting up the BreadBoard information....
+Initializing BreadBoard Node Table(r20,c5)...
+BreadBoard Node Table is ready.
+Initializing BreadBoard Node Map Table(h5)...
+BreadBoard Node Map Table is ready.
+(c)(CEngine): BreadBoard is ready..
+(i)(CircuitElement CE_NONAME.1): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.1): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.1): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.1): Renaming...
+(i)(CircuitElement FullAdder.1): New name is OK.
+(i)(CircuitElement FullAdder.1): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[8])::SetProps.() : properties OK.
+(i)(CircuitElement FullAdder.1): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[4])::SetProps.() : properties OK.
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[1])::SetProps.() : properties OK.
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[2])::SetProps.() : properties OK.
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[3])::SetProps.() : properties OK.
+(i)(Gate):(Type[XOR],NofInputs[2],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[AND],NofInputs[2],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[XOR],NofInputs[2],OutAsLeg[5])::SetProps.() : properties OK.
+(i)(Gate):(Type[AND],NofInputs[2],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(Gate):(Type[OR],NofInputs[2],OutAsLeg[6])::SetProps.() : properties OK.
+(c)(CEngine): CE CHIP:FullAdder is added into circuit.
+(i)(CircuitElement CE_NONAME.2): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.2): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.2): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.2): Renaming...
+(i)(CircuitElement LED.2): New name is OK.
+(i)(CircuitElement LED.2): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[1])::SetProps.() : properties OK.
+(i)(CircuitElement LED.2): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[2])::SetProps.() : properties OK.
+(c)(CEngine): CE LED:LED is added into circuit.
+(i)(CircuitElement CE_NONAME.3): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.3): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.3): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.3): Renaming...
+(i)(CircuitElement LED.3): New name is OK.
+(i)(CircuitElement LED.3): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[1])::SetProps.() : properties OK.
+(i)(CircuitElement LED.3): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[2])::SetProps.() : properties OK.
+(c)(CEngine): CE LED:LED is added into circuit.
+(i)(CircuitElement CE_NONAME.4): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.4): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.4): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.4): Renaming...
+(i)(CircuitElement .4): New name is OK.
+(i)(CircuitElement .4): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[4])::SetProps.() : properties OK.
+(i)(CircuitElement .4): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .4): Renaming...
+(i)(CircuitElement CABLE.4): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.5): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.5): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.5): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.5): Renaming...
+(i)(CircuitElement .5): New name is OK.
+(i)(CircuitElement .5): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[5])::SetProps.() : properties OK.
+(i)(CircuitElement .5): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .5): Renaming...
+(i)(CircuitElement CABLE.5): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.6): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.6): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.6): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.6): Renaming...
+(i)(CircuitElement .6): New name is OK.
+(i)(CircuitElement .6): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[12])::SetProps.() : properties OK.
+(i)(CircuitElement .6): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .6): Renaming...
+(i)(CircuitElement CABLE.6): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.7): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.7): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.7): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.7): Renaming...
+(i)(CircuitElement .7): New name is OK.
+(i)(CircuitElement .7): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[12])::SetProps.() : properties OK.
+(i)(CircuitElement .7): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .7): Renaming...
+(i)(CircuitElement CABLE.7): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.8): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.8): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.8): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.8): Renaming...
+(i)(CircuitElement .8): New name is OK.
+(i)(CircuitElement .8): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[12])::SetProps.() : properties OK.
+(i)(CircuitElement .8): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .8): Renaming...
+(i)(CircuitElement CABLE.8): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.9): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.9): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.9): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.9): Renaming...
+(i)(CircuitElement .9): New name is OK.
+(i)(CircuitElement .9): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[12])::SetProps.() : properties OK.
+(i)(CircuitElement .9): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .9): Renaming...
+(i)(CircuitElement CABLE.9): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.10): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.10): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.10): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.10): Renaming...
+(i)(CircuitElement .10): New name is OK.
+(i)(CircuitElement .10): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[17])::SetProps.() : properties OK.
+(i)(CircuitElement .10): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .10): Renaming...
+(i)(CircuitElement CABLE.10): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.11): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.11): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.11): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.11): Renaming...
+(i)(CircuitElement .11): New name is OK.
+(i)(CircuitElement .11): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[12])::SetProps.() : properties OK.
+(i)(CircuitElement .11): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .11): Renaming...
+(i)(CircuitElement CABLE.11): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.12): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.12): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.12): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.12): Renaming...
+(i)(CircuitElement .12): New name is OK.
+(i)(CircuitElement .12): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[17])::SetProps.() : properties OK.
+(i)(CircuitElement .12): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .12): Renaming...
+(i)(CircuitElement CABLE.12): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.13): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.13): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.13): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.13): Renaming...
+(i)(CircuitElement .13): New name is OK.
+(i)(CircuitElement .13): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[17])::SetProps.() : properties OK.
+(i)(CircuitElement .13): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .13): Renaming...
+(i)(CircuitElement CABLE.13): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.14): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.14): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.14): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.14): Renaming...
+(i)(CircuitElement .14): New name is OK.
+(i)(CircuitElement .14): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[17])::SetProps.() : properties OK.
+(i)(CircuitElement .14): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .14): Renaming...
+(i)(CircuitElement CABLE.14): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.15): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.15): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.15): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.15): Renaming...
+(i)(CircuitElement .15): New name is OK.
+(i)(CircuitElement .15): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[17])::SetProps.() : properties OK.
+(i)(CircuitElement .15): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .15): Renaming...
+(i)(CircuitElement CABLE.15): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(i)(CircuitElement CE_NONAME.16): New circuit element requested. initializing...
+(i)(CircuitElement CE_NONAME.16): Voltage leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.16): Ground leg is creating...
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement CE_NONAME.16): Renaming...
+(i)(CircuitElement .16): New name is OK.
+(i)(CircuitElement .16): Setting Voltage Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[17])::SetProps.() : properties OK.
+(i)(CircuitElement .16): Setting Ground Leg Association
+(i)(Gate):(Type[Input],NofInputs[1],OutAsLeg[0])::SetProps.() : properties OK.
+(i)(CircuitElement .16): Renaming...
+(i)(CircuitElement CABLE.16): New name is OK.
+(c)(CEngine): CE CABLE:CABLE is added into circuit.
+(c)(CEngine): In-CircuitElement connections completed, printing retrieved circuit (C:\Users\emreguldogan\Downloads\CircuitEngine_Code_Files_VS6.0_VS8.0\Debug\FULLAD~1.cec).
+
+LISTING CURRENT CIRCUIT ELEMENTS:
+
+BREADBOARD : 20 rows, 5 cols and 5 holes in a node.
+
+Gate List CE Source(V&G).id_0 [gtType(Addr).no >> nof_inputs (input addr. list)]
+V = leg_0 (00000000), G = leg_0 (00000000)
+Voltage(0136BEB8)(leg_0).1 >> 0 ()
+Ground(0136B530)(leg_0).2 >> 0 ()
+
+Gate List CE FullAdder.id_1 [gtType(Addr).no >> nof_inputs (input addr. list)]
+V = leg_8 (00000000), G = leg_4 (00000000)
+Input(01376FA8)(leg_1).1 >> 1 ( 00000000 )
+Input(0136B638)(leg_2).2 >> 1 ( 00000000 )
+Input(0136B660)(leg_3).3 >> 1 ( 00000000 )
+XOR(01368BD8)(leg_0).4 >> 2 ( 01376FA8  0136B638 )
+AND(01368C00)(leg_0).5 >> 2 ( 01376FA8  0136B638 )
+XOR(01368C28)(leg_5).6 >> 2 ( 01368BD8  0136B660 )
+AND(01363890)(leg_0).7 >> 2 ( 01368BD8  0136B660 )
+OR(013638B8)(leg_6).8 >> 2 ( 01368C00  01363890 )
+
+Empty CE : LED
+
+Empty CE : LED
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+END OF CIRCUIT LIST
+
+
+(c)(CEngine): (Re)plugging process is initiated (C:\Users\emreguldogan\Downloads\CircuitEngine_Code_Files_VS6.0_VS8.0\Debug\FULLAD~1.cec).
+(c)(CEngine): Plugging FullAdder.
+(c)(CEngine): Plugging LED.
+(c)(CEngine): Plugging LED.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): Plugging CABLE.
+(c)(CEngine): (Re)plugging process is completed.
+(c)(CEngine): Circuit is printing after (replugging process).
+
+LISTING CURRENT CIRCUIT ELEMENTS:
+
+BREADBOARD : 20 rows, 5 cols and 5 holes in a node.
+
+Gate List CE Source(V&G).id_0 [gtType(Addr).no >> nof_inputs (input addr. list)]
+V = leg_0 (00000000), G = leg_0 (00000000)
+Voltage(0136BEB8)(leg_0).1 >> 0 ()
+Ground(0136B530)(leg_0).2 >> 0 ()
+
+Gate List CE FullAdder.id_1 [gtType(Addr).no >> nof_inputs (input addr. list)]
+V = leg_8 (0136BEB8), G = leg_4 (0136B530)
+Input(01376FA8)(leg_1).1 >> 1 ( 0136BEB8 )
+Input(0136B638)(leg_2).2 >> 1 ( 0136BEB8 )
+Input(0136B660)(leg_3).3 >> 1 ( 0136BEB8 )
+XOR(01368BD8)(leg_0).4 >> 2 ( 01376FA8  0136B638 )
+AND(01368C00)(leg_0).5 >> 2 ( 01376FA8  0136B638 )
+XOR(01368C28)(leg_5).6 >> 2 ( 01368BD8  0136B660 )
+AND(01363890)(leg_0).7 >> 2 ( 01368BD8  0136B660 )
+OR(013638B8)(leg_6).8 >> 2 ( 01368C00  01363890 )
+
+Empty CE : LED
+
+Empty CE : LED
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+Empty CE : CABLE
+
+END OF CIRCUIT LIST
+
+
+Deallocating BreadBoard Node Table...
+Deallocating BreadBoard Node Map Table...
+Deallocation of BreadBoard is completed.
